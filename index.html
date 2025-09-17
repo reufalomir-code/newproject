@@ -100,7 +100,9 @@
                 <img src="your-logo-image.png" alt="شعار منصة نصير" class="h-8 w-8 rounded-full shadow-md">
             </div>
             <ul class="hidden md:flex items-center gap-8 text-sm font-medium">
+                <li><a href="#main-features" class="hover:text-amber-500 transition-colors">الميزات الرئيسية</a></li>
                 <li><a href="#about" class="hover:text-amber-500 transition-colors">عن المنصة</a></li>
+                <li><a href="#how-it-works" class="hover:text-amber-500 transition-colors">آلية العمل</a></li>
                 <li><a href="#features" class="hover:text-amber-500 transition-colors">المميزات</a></li>
                 <li><a href="#contact" class="hover:text-amber-500 transition-colors">تواصل معنا</a></li>
             </ul>
@@ -126,7 +128,9 @@
                 </svg>
             </button>
             <ul class="text-white text-2xl space-y-8 font-semibold">
+                <li><a href="#main-features" class="hover:text-amber-400 transition-colors">الميزات الرئيسية</a></li>
                 <li><a href="#about" class="hover:text-amber-400 transition-colors">عن المنصة</a></li>
+                <li><a href="#how-it-works" class="hover:text-amber-400 transition-colors">آلية العمل</a></li>
                 <li><a href="#features" class="hover:text-amber-400 transition-colors">المميزات</a></li>
                 <li><a href="#contact" class="hover:text-amber-400 transition-colors">تواصل معنا</a></li>
             </ul>
@@ -135,14 +139,14 @@
 
     <main class="pt-20">
         <!-- Hero Section -->
-        <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080/456961/E7CBA9?text=University+Campus');">
+        <section class="relative h-screen bg-cover bg-center" style="background-image: url('https://placehold.co/1920x1080/456961/E7CBA9');">
             <!-- استبدلي 'your-light-pattern-image.png' باسم ملف الصورة الخفيفة الخاص بكِ -->
-            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('background'); opacity: 0.15;"></div>
+            <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('your-light-pattern-image.png'); opacity: 0.15;"></div>
             <div class="absolute inset-0 bg-green-900/60"></div>
             <div class="relative h-full flex items-center justify-end px-10">
                 <div class="bg-green-950/80 p-10 rounded-xl max-w-md text-right text-white">
-                    <h1 class="text-5xl font-bold mb-4">منصة نصير</h1>
-                    <p class="text-xl">لنصرة حق الطلبة، ولنزاهة حرم الجامعة</p>
+                    <h1 class="text-5xl font-bold mb-2">منصة نصير</h1>
+                    <p class="text-xl">لنصرة حق الطلبة ولنزاهة حرم الجامعة</p>
                     <button id="open-modal-btn" class="mt-6 px-6 py-3 bg-[#E7CBA9] text-[#456961] rounded-full font-semibold hover:bg-amber-300 transition-colors shadow-md">
                         جرب الخدمة الأن
                     </button>
@@ -150,13 +154,67 @@
             </div>
         </section>
 
+        <!-- Main Features Section (New) -->
+        <section id="main-features" class="reveal py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-3xl font-bold text-slate-900 text-center mb-12">الميزات الرئيسية</h2>
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="p-6 bg-slate-100 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-2xl font-semibold text-[#456961]">السرعة</div>
+                        <div class="mt-2 text-sm text-slate-600">تقليص زمن معالجة التظلم من 30 يومًا إلى 7 أيام فقط.</div>
+                    </div>
+                    <div class="p-6 bg-slate-100 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-2xl font-semibold text-[#456961]">الشفافية</div>
+                        <div class="mt-2 text-sm text-slate-600">مؤشرات دقيقة تكشف مستوى الأداء الإداري داخل الجامعة.</div>
+                    </div>
+                    <div class="p-6 bg-slate-100 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-2xl font-semibold text-[#456961]">قابلية التوسع</div>
+                        <div class="mt-2 text-sm text-slate-600">ربط المنصة بأنظمة حكومية مثل "نزاهة" و"ديوان المظالم".</div>
+                    </div>
+                    <div class="p-6 bg-slate-100 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-2xl font-semibold text-[#456961]">الرقمنة</div>
+                        <div class="mt-2 text-sm text-slate-600">تحويل رحلة التظلم من عملية معقدة إلى تجربة ذكية وسلسة.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- About Section -->
         <section id="about" class="reveal py-24 bg-white">
             <div class="max-w-7xl mx-auto px-6">
-                <h2 class="text-4xl font-extrabold mb-4 text-[#456961] text-center">عن المنصة</h2>
+                <h2 class="text-4xl font-extrabold mb-4 text-[#456961] text-center">عن منصة نصير</h2>
                 <p class="text-lg leading-relaxed text-slate-600 text-center md:max-w-3xl md:mx-auto">
-                    منصة ذكية لمعالجة التظلمات والشكاوى بطرق عادلة، شفافة، وسريعة.
+                    نصير هو نظام متكامل يعتمد على تقنيات الذكاء الاصطناعي لمعالجة التظلمات داخل المؤسسات التعليمية. يهدف إلى حماية حقوق الطلبة وضمان سير المرافق العامة، مع تمكين الإدارات العليا من رصد مستوى الأداء والشفافية عبر تقارير دقيقة وموضوعية.
                 </p>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="reveal py-24 bg-slate-50">
+            <div class="max-w-7xl mx-auto px-6">
+                <h2 class="text-3xl font-bold text-slate-900 text-center mb-12">آلية عمل المنصة؟</h2>
+                <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                    <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-4xl font-extrabold text-[#456961]">1.</div>
+                        <h3 class="text-xl font-semibold mt-2">استقبال التظلم</h3>
+                        <div class="mt-2 text-sm text-slate-600">يقوم المستفيد برفع التظلم إلكترونيًا عبر واجهة سهلة الاستخدام، ويقرأ النظام النصوص والملفات باستخدام تقنيات معالجة اللغة الطبيعية.</div>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-4xl font-extrabold text-[#456961]">2.</div>
+                        <h3 class="text-xl font-semibold mt-2">التحليل الآلي</h3>
+                        <div class="mt-2 text-sm text-slate-600">يستخرج النظام العناصر الجوهرية (الجهة المختصة، نوع التظلم، التواريخ، الأدلة)، ويصنف التظلم إلى فئات مثل: أكاديمي، إداري، مالي، أو وظيفي.</div>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-4xl font-extrabold text-[#456961]">3.</div>
+                        <h3 class="text-xl font-semibold mt-2">التوجيه الذكي</h3>
+                        <div class="mt-2 text-sm text-slate-600">يحدد النظام الجهة المعنية داخل الجامعة. وفي حال وجود غموض، يطرح أسئلة تفاعلية دقيقة للتأكد من صحة التوجيه قبل إرسال التظلم للجهة المختصة.</div>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 flex flex-col items-center text-center">
+                        <div class="text-4xl font-extrabold text-[#456961]">4.</div>
+                        <h3 class="text-xl font-semibold mt-2">المتابعة الزمنية</h3>
+                        <div class="mt-2 text-sm text-slate-600">تتم مراقبة المدة النظامية المقررة للرد على التظلمات. وفي حال حدوث تأخير، يتم رفع التظلم إلى مستوى إداري أعلى، مع تسجيل التأخير كمؤشر سلبي في أداء الجهة.</div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -166,20 +224,20 @@
                 <h2 class="text-3xl font-bold text-slate-900 text-center mb-12">مميزات المنصة</h2>
                 <div class="grid md:grid-cols-4 gap-8">
                     <div class="p-6 bg-white rounded-lg text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <div class="text-2xl font-semibold text-[#456961]">سرعة البت</div>
-                        <div class="mt-2 text-sm text-slate-600">تسريع عملية معالجة الشكاوى.</div>
+                        <div class="text-2xl font-semibold text-[#456961]">سرعة</div>
+                        <div class="mt-2 text-sm text-slate-600">تقليص زمن معالجة التظلم من 30 يومًا إلى 7 أيام فقط.</div>
                     </div>
                     <div class="p-6 bg-white rounded-lg text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
                         <div class="text-2xl font-semibold text-[#456961]">الشفافية</div>
-                        <div class="mt-2 text-sm text-slate-600">إجراءات واضحة وموثقة للجميع.</div>
+                        <div class="mt-2 text-sm text-slate-600">مؤشرات دقيقة تكشف مستوى الأداء الإداري داخل الجامعة.</div>
                     </div>
                     <div class="p-6 bg-white rounded-lg text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <div class="text-2xl font-semibold text-[#456961]">حماية الحقوق</div>
-                        <div class="mt-2 text-sm text-slate-600">توفير قناة آمنة وعادلة.</div>
+                        <div class="text-2xl font-semibold text-[#456961]">قابلية التوسع</div>
+                        <div class="mt-2 text-sm text-slate-600">ربط المنصة بأنظمة حكومية مثل "نزاهة" و"ديوان المظالم".</div>
                     </div>
                     <div class="p-6 bg-white rounded-lg text-center shadow-sm hover:shadow-lg transition-shadow duration-300">
-                        <div class="text-2xl font-semibold text-[#456961]">الذكاء الاصطناعي</div>
-                        <div class="mt-2 text-sm text-slate-600">تحليل الشكاوى بدقة وكفاءة.</div>
+                        <div class="text-2xl font-semibold text-[#456961]">الرقمنة</div>
+                        <div class="mt-2 text-sm text-slate-600">تحويل رحلة التظلم من عملية معقدة إلى تجربة ذكية وسلسة.</div>
                     </div>
                 </div>
             </div>
@@ -354,4 +412,5 @@
     </script>
 </body>
 </html>
+
 
